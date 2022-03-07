@@ -1,43 +1,32 @@
 * {
-    background-color: rgb(199, 222, 241);
     padding: 0;
     margin: 30px;
-    line-height: 30px;
+    background: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(babies.png);
+    font-size: larger;
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    line-height: 70px;
-    margin: 0px 0px;
-    margin: 30px 30px;
+    margin-left: 0px;
+    margin-top: 10px;
 }
 
 img {
-    border-image: 8px;
-    display: flex;
-    display: inline-flex;
-    padding: 30px;
+    text-indent: 0px;
 }
 
 .logo {
-    font-size: larger;
     align-items: center;
 }
 
-.form-container {
-    display: flex;
-    flex-direction: row;
-    line-height: 30px;
+form {
+    text-align: start;
+    display: flow-root;
+    font-size: 40px;
 }
 
-image {
-    display: flex;
-    flex-direction: row;
-    margin: 0px 10px;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-    height: 100px;
+.About {
+    line-height: 40px;
 }
