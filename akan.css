@@ -1,17 +1,13 @@
 * {
     padding: 0;
     margin: 30px;
-    background colour: lightgrey;
+    background-color: lightgrey;
     font-size: large;
 }
 
 .container {
-    margin-left: 0px;
-    margin-top: 10px;
-}
-
-img {
-    text-indent: 0px;
+    margin: 0px;
+    align-items: center;
 }
 
 .logo {
@@ -20,8 +16,8 @@ img {
 
 form {
     text-align: start;
-    display: flow-root;
-    font-size: 40px;
+    display: block;
+    font-size: medium;
 }
 
 .About {
